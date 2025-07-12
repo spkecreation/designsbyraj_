@@ -4,10 +4,11 @@
     }
 
     #hero{
-        /* border: solid red 2px; */
-        text-align: center;
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
         padding: 50px;
     }
     #journey .social-links{
@@ -22,5 +23,11 @@
     }
     .testimonial-card{
         border: solid 2px #22c55e;
+    }
+    #hero-text h1{
+        font-size: 4rem;
+    }
+    #hero-text small{
+        font-size: 10px;
     }
 }
