@@ -20,14 +20,22 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     }
     .testimonial-card{
         border: solid 2px #22c55e;
     }
+    #hero-text{
+        order: 2;
+    }
+
     #hero-text h1{
         font-size: 4rem;
     }
     #hero-text small{
         font-size: 10px;
+    }
+    #hero-image{
+        order: 1;
     }
 }
