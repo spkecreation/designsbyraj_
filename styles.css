@@ -73,18 +73,16 @@
     #hero {
         min-height: 90vh;
         display: flex;
-        /* flex-direction: column; */
         align-items: center;
         justify-content: space-between;
         padding: 3rem 10rem;
         gap: 5rem;
-        /* flex-wrap: wrap-reverse; */
         background-color: #0a0a0a;
     }
 
     #hero-text {
       width: 100%;
-      order: 2;
+      order: 1;
     }
     #hero-text small {
       font-size: 0.75rem;
@@ -118,7 +116,7 @@
     }
     
     #hero-image {
-      order: 1;
+      order: 2;
       /* flex: 1 1 320px; */
       /* width: 500px; */
       user-select: none;
