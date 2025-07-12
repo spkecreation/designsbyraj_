@@ -1,0 +1,26 @@
+@media (max-width: 768px){
+    #menu-toggle{
+        margin-right: 20px;
+    }
+
+    #hero{
+        /* border: solid red 2px; */
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+    #journey .social-links{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #journey{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .testimonial-card{
+        border: solid 2px #22c55e;
+    }
+}
