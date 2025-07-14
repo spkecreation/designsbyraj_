@@ -76,8 +76,9 @@
         align-items: center;
         justify-content: space-between;
         padding: 3rem 10rem;
-        gap: 5rem;
+        gap: 3rem;
         background-color: #0a0a0a;
+        
     }
 
     #hero-text {
